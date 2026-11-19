@@ -1,0 +1,189 @@
+
+@media (max-width: 991px) {
+
+    .container {
+        max-width: 95%;
+    }
+
+    .headerMiddle .search input {
+        width: 100%;
+        min-width: 0;
+        padding: 10px;
+    }
+
+    .headerMiddle .row {
+        align-items: center;
+    }
+
+    .logo {
+        padding: 15px;
+    }
+
+    .headerBottom .navbar-nav {
+        gap: 5px !important;
+        flex-wrap: wrap;
+    }
+
+    .phone {
+        justify-content: flex-start;
+        padding: 10px;
+    }
+
+    .bannerContent {
+        padding: 25px;
+    }
+
+    .bannerText h1 {
+        font-size: 30px;
+    }
+
+    .serviceItem {
+        padding: 15px 10px;
+    }
+
+    .dealImage img,
+    .dealPerson img {
+        height: 180px;
+    }
+
+    .newsletterLogo,
+    .newsletterText {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    .headerTop {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .headerTopLeft {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .headerTopRight {
+        justify-content: center !important;
+    }
+
+    .headerMiddle .row {
+        gap: 15px;
+    }
+
+    .logo,
+    .search,
+    .cart {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo img {
+        max-width: 150px;
+    }
+
+    .search {
+        width: 90%;
+    }
+
+    .cart {
+        padding: 10px;
+    }
+
+    .categoryBtn {
+        margin-bottom: 10px;
+    }
+
+    .headerBottom .navbar-nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .banner {
+        padding: 30px 0;
+    }
+
+    .banner .row {
+        min-height: auto;
+    }
+
+    .bannerImage img {
+        max-height: 250px;
+    }
+
+    .bannerContent {
+        justify-content: center;
+        padding: 20px 10px;
+    }
+
+    .bannerText h1 {
+        font-size: 28px;
+    }
+
+    .serviceBox {
+        margin-top: 20px;
+    }
+
+    .serviceItem {
+        border-bottom: 1px solid var(--gray-scale-gray-100);
+        border-right: none;
+    }
+
+    .sectionTitle h2 {
+        font-size: 21px;
+    }
+
+    .sectionTitle ul {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .productCard img {
+        height: 120px;
+    }
+
+    .promoCard {
+        height: 180px;
+    }
+
+    .dealImage img,
+    .dealPerson img {
+        height: 160px;
+    }
+
+    .dealContent {
+        padding: 20px 0;
+    }
+
+    .videoBanner {
+        height: 250px;
+    }
+
+    .videoContent h3 {
+        font-size: 20px;
+    }
+
+    .newsletter {
+        text-align: center;
+    }
+
+    .newsletterLogo {
+        margin-bottom: 15px;
+    }
+
+    .newsletterForm {
+        margin-top: 15px;
+    }
+
+    .footer [class*="col-"] {
+        margin-bottom: 25px;
+    }
+
+    .footerBottom {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
